@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BirthDay</title>
+</head>
+<body>
+<div id="add">
+    <form method="post" action="#" id="form">
+        <label>Введите имя</label><br>
+        <input type="text" name="name"><br>
+        <label>Выберите дату рождения</label><br>
+        <input type="date" name="data"><br>
+        <input type="hidden" name="mode" value="add">
+        <input type="button" value="Добавить" id="send"><br>
+    </form>
+</div>
+<div id="out">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>№</th>
+            <th>Имя</th>
+            <th>Дата рождения</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</div>
+<script src="jQuery.js"></script>
+<script src="birthday.js"></script>
+</body>
+</html>

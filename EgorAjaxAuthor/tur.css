@@ -1,0 +1,26 @@
+body{
+    background-image: url("images/city1.jpg");
+    background-size: auto;
+}
+.h3{
+    display: inline-block;
+    /*position: absolute;*/
+    width: 200px;
+
+}
+.btn{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: blue;
+    font-size: 12px;
+    border-color: blue;
+}
+h3{
+    border-bottom: 2px solid springgreen;
+    border-left: 2px solid springgreen;
+}
+.form{
+    border-bottom: 2px solid springgreen;
+    border-left: 2px solid springgreen;
+
+}

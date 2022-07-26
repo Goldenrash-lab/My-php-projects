@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+/*#out{*/
+/*   display: none;*/
+/*}*/
+.div{
+    display: inline-block;
+    width: 200px;
+}

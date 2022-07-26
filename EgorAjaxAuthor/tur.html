@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TurFirma</title>
+    <link rel="stylesheet" href="tur.css">
+</head>
+<body>
+
+<div align="center">
+    <h2>Админ</h2>
+</div>
+<div id="forms">
+
+<div id="f1" class="h3">
+    <h3>Добавление страны</h3>
+
+    <form action="#" method="post" class="form" id="f_add_country">
+
+
+        <input type="text" name="country" placeholder="Введите страну"><br>
+        <br>
+        <input type="button" class="btn" id="s_country" name="s_country" value="Добавить страну"><br>
+    </form>
+</div>
+<div id="f2" class="h3">
+    <h3>Добавление города</h3>
+
+    <form action="#" method="post" class="form" id="f_add_city">
+
+        <input type="text" name="city" placeholder="Введите город"><br>
+        <br>
+        <select name="sel_country">
+            <option>Выберите страну</option>
+        </select><br>
+        <br>
+        <input type="button"  class="btn" id="s_city" name="s_city" value="Добавить город">
+
+    </form>
+</div>
+<div id="f3" class="h3">
+    <h3>Добавление отеля</h3>
+
+    <form action="#" method="post" class="form" id="f_add_hotel" >
+
+        <input type="text" name="hotel" placeholder="Введите название отеля"><br>
+        <br>
+        <select name="sel_country" id="sel_country">
+            <option>Выберите страну</option>
+
+        </select><br>
+        <br>
+        <select name="sel_city">
+            <option>Выберите город</option>
+        </select><br>
+        <br>
+        <select name="sel_class">
+            <option value="1">★</option>
+            <option value="2">★★</option>
+            <option value="3">★★★</option>
+            <option value="4">★★★★</option>
+            <option value="5">★★★★★</option>
+        </select><br>
+        <br>
+        <input type="button" class="btn" id="s_hotel" name="s_hotel" value="Добавить отель">
+    </form>
+
+
+</div>
+</div>
+<br>
+<button class="btn">Клиент</button>
+
+
+<script src="jQuery.js"></script>
+<script src="tur.js"></script>
+</body>
+</html>
